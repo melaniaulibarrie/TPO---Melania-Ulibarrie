@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="muscle.ico">
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d502d5cec3.js" crossorigin="anonymous"></script>
+    <title>Muscle Sports - Contacto</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="./TPO - MELANIA.html">Inicio</a></li>
+              <li><a href="./productos.html">Productos</a></li>
+              <li><a href="./about-us.html">Nosotros</a></li>
+              <li><a href="./contact.html">Contacto</a></li>
+              <li><a href="./access.html">Acceder</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"><img src="images/cart.png" alt="icon" width="30px" height="30px" /></a>
+        </div>
+      </div>
+      
+    <div class="container-fluid cont-contact">
+        <div class="row contact">
+          <div class="col-sm-12 col-md-6 col-lg-8">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.0089887137974!2d-58.849068585432065!3d-27.468979523247647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456cb968a1f301%3A0xa104528048b998ab!2sChaco%201099%2C%20W3400%20Corrientes!5e0!3m2!1ses!2sar!4v1636833065872!5m2!1ses!2sar" 
+            width="100%" 
+            height="600px" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <h3 class="mt-5">Contacto</h3>
+            <form id="contacto" method="POST" action="" class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validarNombre">Nombre:<span class="red">*</span></label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validarNombre"
+                    name="validarNombre"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validarApellidos"
+                    name="validarApellidos"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validarEmail">Email:<span class="red">*</span></label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="validarEmail"
+                    name="validarEmail"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validarTelefono">Teléfono:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="validarTelefono"
+                    name="validarTelefono"
+                    max="999999999"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validarAsunto">Asunto:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validarAsunto"
+                    name="validarAsunto"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
+                <textarea
+                  class="form-control"
+                  id="validationMensaje"
+                  name="validationMensaje"
+                  rows="3"
+                  min="25"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="form-group mb-10">
+                <button class="btn btn-primary" type="submit" name="submit">
+                  Enviar
+                </button>
+                <button class="btn btn-success" type="reset" name="reset" onclick="clear()">
+                  Limpiar
+                </button>
+              </div>
+              <p>* campos obligatorios</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Descarga nuestra aplicación.</h3>
+              <p>Descargar la aplicación para teléfonos móviles Android e IOS.</p>
+              <div class="app-logo">
+                <img src="images/play.png" alt="Apps">
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="images/muscle.png" alt="muscle" />
+              <p>
+                No eres lo que logras. Eres lo que superas.
+              </p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Enlaces útiles</h3>
+              <ul>
+                <li>Cupones</li>
+                <li>Blog</li>
+                <li>Política de Devoluciones</li>
+                <li><a href="contact.html">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p class="copyright">Copyright 2021 - Muscle Sports</p>
+        </div>
+      </footer>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/validation.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
